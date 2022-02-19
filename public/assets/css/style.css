@@ -1,0 +1,168 @@
+/* Genel Css Kodları */
+
+:root {
+    --kirikBeyaz: #EDF0F2;
+    --beyaz: #FFFFFF;
+    --siyah: #000000;
+    --kirmizi: #E4003B;
+    --lacivert: #0074C1;
+    --hardal: #FFB307;
+}
+
+@font-face {
+    font-family: 'TT Lakes Medium DEMO';
+    src: url('../fonts/tt-lakes/subset-TTLakesMediumDEMO.woff2') format('woff2'),
+    url('../fonts/tt-lakes/subset-TTLakesMediumDEMO.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Teko-medium';
+    src: url('../fonts/teko/subset-Teko-Medium.woff2') format('woff2'),
+    url('../fonts/teko/subset-Teko-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Teko-semi-bold';
+    src: url('../fonts/teko/subset-Teko-SemiBold.woff2') format('woff2'),
+    url('../fonts/teko/subset-Teko-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+html, body {
+    color: var(--siyah);
+    background: var(--kirikBeyaz);
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    font-family: 'Teko-semi-bold', serif;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'TT Lakes Medium DEMO';
+    font-size: 14px;
+    color: var(--beyaz);
+}
+
+p {
+    margin: 0;
+    font-size: 14px;
+
+}
+
+h1, h2, h3 {
+    color: var(--siyah);
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+medium-36 {
+    font-family: 'Teko-medium', serif;
+}
+
+medium-60 {
+    font-family: 'Teko-medium', serif;
+}
+
+.fa, .fab, .fas, .far, fal {
+    font-size: 14px;
+}
+
+section{
+    padding: 80px 0;
+}
+ul{
+    text-align:center;
+}
+
+ul li{
+    display:inline-block;
+    *display:inline; /*IE7*/
+    *zoom:1; /*IE7*/
+}
+
+
+/* slider */
+
+.carousel-vertical {
+    text-align: right;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+
+    font-size: 60px;
+}
+
+.carousel-header {
+    bottom: 100%;
+    position: absolute;
+    text-align: center;
+    font-size: 156px;
+    color: var(--kirmizi);
+
+}
+.carousel-caption1 {
+    position: absolute;
+     width: 15%;
+    left: 0!important;
+     bottom: 1.25rem;
+
+     padding-top: 1.25rem;
+     padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-family: 'Teko-semi-bold', serif;
+    font-size: 17px;
+    color: var(--siyah);
+    display: grid;
+    justify-content: normal;
+    padding-left: 2.5rem !important;
+}
+
+
+.navbar{
+transition: all .3s ease-in;
+}
+.navbar-nav{
+align-content: center;
+}
+
+.sabitMenu{
+background-color: var(--kirikBeyaz) ;
+opacity: 80%;
+    box-shadow:  0 1px 10 px var(--hardal);
+}
+
+
+body{
+    height: 2000px;
+}
+
+/* Header */
+/* Header */
+/* Header */
+/* Header */
+/* Header */
+/* Header */
+
