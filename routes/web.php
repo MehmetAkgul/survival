@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\SurveyController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', function () { return view('welcome'); });
+Route::post('/survey/getCheck',[ SurveyController::class,"getCheck"]);
+Route::post('/survey/getSurveyCount',[ SurveyController::class,"getSurveyCount"]);
+Route::post('/survey/getSurvey',[ SurveyController::class,"getSurvey"]);
+Route::post('/survey/surveyStore',[ SurveyController::class,"surveyStore"]);
+Route::post('/survey/getResult',[ SurveyController::class,"getResult"]);
+
+

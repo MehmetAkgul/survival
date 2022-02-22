@@ -38,6 +38,9 @@
     font-display: swap;
 }
 
+.kirmizi {
+    color: var(--kirmizi);
+}
 
 html, body {
     color: var(--siyah);
@@ -55,6 +58,7 @@ a {
     font-size: 14px;
     color: var(--beyaz);
 }
+
 
 p {
     margin: 0;
@@ -74,6 +78,11 @@ h2 {
     font-size: 36px;
 }
 
+h4 {
+    font-size: 17px;
+
+}
+
 medium-36 {
     font-family: 'Teko-medium', serif;
 }
@@ -86,51 +95,64 @@ medium-60 {
     font-size: 14px;
 }
 
-section{
+section {
     padding: 80px 0;
 }
-ul{
-    text-align:center;
+
+ul {
+    text-align: center;
 }
 
-ul li{
-    display:inline-block;
-    *display:inline; /*IE7*/
-    *zoom:1; /*IE7*/
+ul li {
+    display: inline-block;
+    *display: inline; /*IE7*/
+    *zoom: 1; /*IE7*/
 }
 
 
 /* slider */
 
 .carousel-vertical {
+    left: -68px;
+    position: absolute;
     text-align: right;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
-
     font-size: 60px;
 }
 
 .carousel-header {
-    bottom: 100%;
+    width: 260px;
     position: absolute;
     text-align: center;
     font-size: 156px;
     color: var(--kirmizi);
+    word-break: break-word;
+    height: 76%;
+    left: 13px;
+}
+
+.yetenek-yuzde {
+    width: 260px;
+     text-align: center;
+    font-size: 156px;
+    color: var(--kirmizi);
+    word-break: break-word;
 
 }
-.carousel-caption1 {
+
+.slider p {
     position: absolute;
-     width: 15%;
-    left: 0!important;
-     bottom: 1.25rem;
-
-     padding-top: 1.25rem;
-     padding-bottom: 1.25rem;
-    color: #fff;
-    text-align: center;
+    margin: 0;
+    font-size: 14px;
+    top: 90%;
+    word-break: break-word;
+    width: 233px;
+    left: 25px;
 }
 
-.nav-link{
+
+.nav-link {
     text-decoration: none;
     font-family: 'Teko-semi-bold', serif;
     font-size: 17px;
@@ -138,31 +160,139 @@ ul li{
     display: grid;
     justify-content: normal;
     padding-left: 2.5rem !important;
+
 }
 
 
-.navbar{
-transition: all .3s ease-in;
-}
-.navbar-nav{
-align-content: center;
+.navbar {
+    transition: all .3s ease-in;
 }
 
-.sabitMenu{
-background-color: var(--kirikBeyaz) ;
-opacity: 80%;
-    box-shadow:  0 1px 10 px var(--hardal);
+.navbar-nav {
+    align-content: center;
+}
+
+.sabitMenu {
+    background-color: var(--kirikBeyaz);
+    opacity: 80%;
+    box-shadow: 0 1px 10px var(--hardal);
 }
 
 
-body{
+body {
+
     height: 2000px;
 }
 
-/* Header */
-/* Header */
-/* Header */
-/* Header */
-/* Header */
-/* Header */
+/* slider */
+.slider .container {
+    position: relative;
+}
 
+.slider .carousel-control-next1 {
+    position: absolute;
+    top: 80% !important;
+    bottom: 100% !important;
+    right: 0 !important;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    opacity: .5;
+    border: none;
+    transition: opacity .15s ease;
+}
+
+.slider .carousel-control-prev1 {
+    position: absolute;
+    top: 90% !important;
+    bottom: 100% !important;
+    right: 0 !important;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    opacity: .5;
+    transition: opacity .15s ease;
+    border: none;
+}
+
+/* slider */
+/* test */
+
+
+.section3 {
+    width: 1600px;
+}
+
+.section3 h2 {
+    position: relative;
+    bottom: 40px;
+}
+
+.yetenekler {
+    position: relative;
+    left: 40px;
+    top: 50px;
+}
+
+.yetenekler h2 {
+    position: relative;
+    bottom: 0px;
+}
+
+.yetenekimg {
+    position: relative;
+
+    width: 508px;
+    height: 309px;
+}
+
+.test {
+    width: 1006px;
+    padding-bottom: 40px;
+}
+
+.test p {
+    position: relative;
+
+    width: 459px;
+}
+
+.test a {
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Teko-semi-bold', serif;
+    font-size: 17px;
+    color: var(--siyah);
+    padding-top: 30px;
+}
+
+.test a:hover {
+
+    color: var(--kirmizi);
+    transition: all .1s ease-in;
+}
+
+.test h4 {
+    color: var(--kirmizi);
+}
+
+.
+.gorev {
+    width: 570px;
+
+}
+
+.gorev h1 {
+    font-size: 174px;
+    color: var(--beyaz);
+}
+
+/* background-color: #fff; */
+/* background-clip: border-box; */
+/* border: 1px solid rgba(0,0,0,.125); */
+/* border-radius: 0.25rem;
+
+/* Header */
+/* Header */
+/* Header */
+/* Header */

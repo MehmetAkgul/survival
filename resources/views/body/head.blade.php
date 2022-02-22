@@ -13,5 +13,6 @@
 <link href="{{asset('assets/css/style.css')}}" rel="stylesheet" >
 <!-- style.css-->
 
+<meta name="csrf-token" content="{{ csrf_token() }}"/>
 
 <title>Survival</title>
